@@ -1,11 +1,11 @@
 {
-    "name": "codeclimate/php-test-reporter",
+    "name": "silantifross/php-test-reporter",
     "description": "PHP client for reporting test coverage to Code Climate",
     "keywords": [
         "codeclimate",
         "coverage"
     ],
-    "homepage": "https://github.com/codeclimate/php-test-reporter",
+    "homepage": "https://github.com/silantifross/php-test-reporter",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -19,16 +19,16 @@
         "sort-packages": true
     },
     "require": {
-        "php": "^5.3 || ^7.0",
+        "php": "^8.0",
         "ext-curl": "*",
         "padraic/phar-updater": "^1.0",
         "psr/log": "^1.0",
-        "satooshi/php-coveralls": "^1.0",
-        "symfony/console": "^2.0 || ^3.0 || ^4.0"
+        "php-coveralls/php-coveralls": "^2.7",
+        "symfony/console": "^4.0 || ^5.0"
     },
     "require-dev": {
-        "friendsofphp/php-cs-fixer": "^2.0.0",
-        "phpunit/phpunit": "^4.8.35 || ^5.7.0 || ^6.0.0"
+        "friendsofphp/php-cs-fixer": "^v3.0",
+        "phpunit/phpunit": "^9.6"
     },
     "autoload": {
         "psr-4": {
@@ -52,7 +52,7 @@
         ],
         "cs": [
             "composer install --prefer-dist",
-            "php-cs-fixer fix --config=.php_cs --verbose --diff"
+            "php-cs-fixer fix --config=.php-cs-fixer.php --verbose --diff"
         ],
         "test": [
             "composer install --prefer-dist",

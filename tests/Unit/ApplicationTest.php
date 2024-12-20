@@ -13,8 +13,8 @@ class ApplicationTest extends \PHPUnit\Framework\TestCase
      */
     protected $srcDir;
 
-    protected function setUp()
-    {
+    protected function setUp(): void
+	{
         $this->srcDir = realpath(__DIR__ . '/../../../../CodeClimateTestReporter');
         $this->setupProject();
         $this->setupEnvironment();
