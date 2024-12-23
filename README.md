@@ -2,7 +2,7 @@
 [![Code Climate](https://codeclimate.com/github/codeclimate/php-test-reporter.svg)](https://codeclimate.com/github/codeclimate/php-test-reporter)
 [![Test Coverage](https://codeclimate.com/github/codeclimate/php-test-reporter/badges/coverage.svg)](https://codeclimate.com/github/codeclimate/php-test-reporter/coverage)
 
-# codeclimate-test-reporter - [DEPRECATED]
+# codeclimate-test-reporter - php ^8.0
 
 These configuration instructions refer to a language-specific test reporter which is now deprecated in favor of our new unified test reporter client. The [new test reporter](https://docs.codeclimate.com/v1.0/docs/configuring-test-coverage) is faster, distributed as a static binary, has support for parallelized CI builds, and will receive ongoing support by the team here. The existing test reporters for Ruby, Python, PHP, and Javascript are now deprecated.
 
